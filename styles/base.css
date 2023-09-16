@@ -93,6 +93,12 @@ footer img {
     height: auto;
     margin:0px 10px;
 }
+#lastModified{
+    text-decoration: underline;
+    color: orange;
+    font-size: 0.9em;
+
+}
 
 @media only screen and (min-width: 760px) {
     header img {
