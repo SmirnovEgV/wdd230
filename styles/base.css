@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans&display=swap');
+*{
+    padding: none;
+    margin: none;
+}
+
+body {
+    max-width: 100%;
+}
+header{
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    border: 5px black;
+    color: white;
+    background-color: #061e94;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+header img {
+    max-width: 60px;
+    height: auto;
+    margin:10px 10px;
+}
+header h1 {
+    justify-content: center;
+    margin:10px 10px;
+}
+
+ul{
+    padding-left: 0px;
+    margin-top: 0px;
+    display: grid;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul a {
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+
+main {
+    display: grid;
+    padding: 0 15px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: black 5px dotted;
+}
+.card{
+    border: black 2px solid;
+    border-radius: 7px;
+    overflow: hidden;
+    
+}
+.card ul {
+    padding-left: 10px;
+}
+.card li {
+    text-align: left;
+}
+h3 {
+    background-color: #061e94;
+    color: white;
+    margin-top: 0px;
+    padding: 15px 0;
+    text-align: center;
+}
+main > h2, main > section {
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #061e94;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 760px) {
+    header img {
+        max-width: auto;
+        height: auto;
+        margin:10px 10px;
+    }
+    body {
+        margin: 0 28%;
+        font-size: 1em;
+    }
+}
