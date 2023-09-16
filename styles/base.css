@@ -78,9 +78,20 @@ main > h2, main > section {
 }
 
 footer{
+    display: grid;
     background-color: #061e94;
     color: white;
     text-align: center;
+    font-size: 1.1em;
+}
+
+footer p {
+    margin: 0 5px;
+}
+footer img {
+    max-width: 90px;
+    height: auto;
+    margin:0px 10px;
 }
 
 @media only screen and (min-width: 760px) {
