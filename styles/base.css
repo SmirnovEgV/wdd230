@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans&display=swap');
 *{
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -105,7 +105,7 @@ footer img {
 
 @media only screen and (min-width: 760px) {
     header img {
-        max-width: auto;
+        width: auto;
         height: auto;
         margin:10px 10px;
     }
