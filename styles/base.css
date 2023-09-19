@@ -55,7 +55,7 @@ main {
 h2 {
     text-align: center;
     font-size: 1.2em;
-    border-bottom: black 5px dotted;
+    border-bottom: rgb(255, 174, 0) 2px dashed;
 }
 .card{
     border: black 2px solid;
