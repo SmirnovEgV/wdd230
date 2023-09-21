@@ -5,7 +5,9 @@
 }
 
 body {
-    max-width: 100%;
+    max-width: 650px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 header{
     display: flex;
@@ -103,14 +105,16 @@ footer img {
 
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 651px) {
     header img {
         width: auto;
         height: auto;
         margin:10px 10px;
     }
     body {
-        margin: 0 28%;
+        justify-content: center;
+        margin-left: 80px;
+        margin-right: 80px;
         font-size: 1em;
     }
 }
