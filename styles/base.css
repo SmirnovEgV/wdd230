@@ -6,13 +6,10 @@
 
 body {
     max-width: 650px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 header{
     display: flex;
     font-family: 'Oswald', sans-serif;
-    border: 5px black;
     color: white;
     background-color: #061e94;
     align-items: center;
@@ -59,18 +56,21 @@ h2 {
     font-size: 1.2em;
     border-bottom: rgb(255, 174, 0) 2px dashed;
 }
-.card{
+.assignment-card, .weather-card{
     border: black 2px solid;
     border-radius: 7px;
     overflow: hidden;
     
 }
-.card ul {
+.assignment-card ul {
     padding-left: 10px;
 }
-.card li {
-    text-align: left;
+.weather-card {
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
 }
+
 h3 {
     background-color: #061e94;
     color: white;
@@ -112,9 +112,8 @@ footer img {
         margin:10px 10px;
     }
     body {
-        justify-content: center;
-        margin-left: 80px;
-        margin-right: 80px;
+        max-width: 810px;
         font-size: 1em;
+        margin: 0 auto;
     }
 }
