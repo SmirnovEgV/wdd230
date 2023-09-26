@@ -70,6 +70,16 @@ h2 {
     display: inline;
     vertical-align: middle;
 }
+.mapthing {
+    border: green 5px solid;
+    margin: 15px 15px;
+
+}
+iframe{
+    width: 100%;
+    
+    
+}
 
 h3 {
     background-color: #061e94;
@@ -104,6 +114,7 @@ footer img {
     font-size: 0.9em;
 
 }
+
 
 @media only screen and (min-width: 651px) {
     header img {
