@@ -12,9 +12,17 @@
         height: auto;
         margin:10px 10px;
     }
-    nav ul {
-        padding: 15px 0px;
+    .menu-hide, .menu-show{
+        display: none;
+    }
+    nav {
         display: flex;
+        flex-grow: initial;
+    }
+    nav ul {
+        /*padding: ppx 0px;*/
+        display: flex;
+        flex-grow: 1;
         justify-content: space-around;
         font-size: 1.4em;
     }
@@ -49,12 +57,17 @@
         overflow: hidden;
         text-align: center;
     }
+    .nav-menu{
+        max-height: 100px;
+    }
     .mapthing {
         width: 800px;
         grid-column: 1/3;
         border: #3D4338 5px solid;
         margin: 15px auto;
-        
-    
     }
+    #burger{
+        display: none;
+    }
+
     }

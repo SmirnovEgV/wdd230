@@ -23,8 +23,11 @@
         <h1>Egor Smirnov</h1>
     </header>
     <nav>
-        <button class="menu-hide">X</button><button class="menu-show"></button>
-        <ul>
+        <button id="burger" class="menu-burger">
+            <span class="burger-row"></span>
+            <span class="burger-row"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu">
             <li><a id="active" href="#">Home</a></li>
             <li><a href="chamber/siteplan.html">Site Plan</a></li>
             <li><a href="chamber/">Chamber</a></li>
@@ -33,6 +36,7 @@
         </ul>
     </nav>
     <main>
+   
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="assignment-card">
             <h3>Learning Activities</h3>
@@ -67,6 +71,7 @@
         <p id="lastModified"></p>
 
         <script src="scripts/getdates.js"></script>
+        <script src="scripts/burgmenu.js"></script>
     </footer>
 
     
