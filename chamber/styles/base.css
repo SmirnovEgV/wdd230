@@ -38,14 +38,23 @@ header{
     align-items: center;
     justify-content:space-evenly;
     font-size: 0.4em;
+    height: 30px;
 }
 header img {
-    width: 60px;
+    width: 15%;
 
 }
+#hero-sction {
+    position: relative;
+}
 #hero-section img {
-    width: 425px;
-
+    width: 100%;
+}
+#hero-section button{
+    position: absolute;
+    /* margin-left: 40%; */
+    top: 100px;
+    left: 100px;
 }
 nav ul{
     padding-left: 0px;

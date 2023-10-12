@@ -34,16 +34,19 @@ header{
     align-items: center;
     justify-content:space-around;
     font-size: 1em;
+    height: 70px;
 }
 header img {
-    width: 100%;
+    width: 40%;
 }
 
 #hero-section img {
     width: 100%;
     
 }
-
+#hero-section button{
+    margin-left: 45%;
+}
 nav ul{
     padding-left: 0px;
     margin-top: 5px;
