@@ -24,6 +24,11 @@
     --nav-hover-background-color: #FFFADD;
 }
 
+.dark-mode{
+    background-color: black;
+    color:white;
+}
+
 body{
     max-width: 425px;
     margin: 0 auto;
@@ -48,31 +53,43 @@ header div {
     display: grid;
     place-items: center;
 }
-#hero-sction {
+#hero-section{
     position: relative;
+    width: 100%;
 }
 #hero-section img {
+    position: relative;
+    top: 0px;
+    left: 0px;
     width: 100%;
 }
 
 .call-to-action-button{
-    position: relative;
-    /* margin-left: 40%; */
-    top: -3rem;
-    left: 10rem;
+    position: absolute;
+    top: 60%;
+    left: calc(50% - 54px)
 }
 .hamburger-menu-button{
-    position: relative;
-z-index: 2;
+    position: absolute;
+    top: 100%;
+    left: 89%;
 }
 
-nav ul{
+.nav-menu {
     padding-left: 0px;
-    margin-top: -15px;
-    display: grid;
+    margin-top: -5px;
+    display: block;
     background-color: var(--nav-background-color);
     text-align: center;
     list-style-type: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.9s;
+}
+
+.nav-menu.active {
+    max-height: 600px;
+
 }
 
 nav ul li{
@@ -112,11 +129,16 @@ footer{
 
 footer p {
     margin: 0 5px;
+    text-align: center;
 }
-footer img {
+
+footer img {    
     max-width: 90px;
     height: auto;
     margin:0px 10px;
+}
+footer a {
+    color: var(--secondary-color)
 }
 #lastModified{
     text-decoration: underline;

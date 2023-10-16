@@ -37,19 +37,30 @@ header{
     height: 70px;
 }
 header img {
-    width: 40%;
+    width: 15%;
+}
+#hero-section{
+    position: relative;
+    width: 100%;
+}
+#hero-section img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
 }
 
-#hero-section img {
-    width: 100%;
-    
+.call-to-action-button{
+    position: absolute;
+    top: 65%;
+    left: calc(50% - 54px)
 }
-#hero-section button{
-    margin-left: 45%;
+.hamburger-menu-button{
+    display: none;
 }
-nav ul{
+.nav-menu{
     padding-left: 0px;
-    margin-top: 5px;
+    margin-top: -5px;
     display: flex;
     background-color: var(--nav-background-color);
     text-align: center;
