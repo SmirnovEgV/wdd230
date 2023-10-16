@@ -31,18 +31,22 @@ body{
 }
 
 header{
-    display: flex;
+    display: grid;
+    grid-template-columns: 45px 3fr 30px;
+    grid-template-rows: 30px;
     font-family: 'Roboto slab', sans-serif;
     color: var(--secondary-color);
     background-color: var(--primary-color);
-    align-items: center;
-    justify-content:space-evenly;
+    justify-items: center;
     font-size: 0.4em;
     height: 30px;
 }
 header img {
-    width: 15%;
-
+    width: 90%;
+}
+header div {
+    display: grid;
+    place-items: center;
 }
 #hero-sction {
     position: relative;
@@ -50,15 +54,21 @@ header img {
 #hero-section img {
     width: 100%;
 }
-#hero-section button{
-    position: absolute;
+
+.call-to-action-button{
+    position: relative;
     /* margin-left: 40%; */
-    top: 100px;
-    left: 100px;
+    top: -3rem;
+    left: 10rem;
 }
+.hamburger-menu-button{
+    position: relative;
+z-index: 2;
+}
+
 nav ul{
     padding-left: 0px;
-    margin-top: 5px;
+    margin-top: -15px;
     display: grid;
     background-color: var(--nav-background-color);
     text-align: center;
@@ -83,6 +93,10 @@ nav a:hover {
 #active {
     background-color: var(--nav-hover-background-color);
     color:var(--nav-hover-link-color);
+}
+
+img{
+    max-width: 100%;
 }
 
 
