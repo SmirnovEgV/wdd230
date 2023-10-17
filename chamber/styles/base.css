@@ -115,6 +115,11 @@ nav a:hover {
 img{
     max-width: 100%;
 }
+#home-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 3fr;
+}
 
 
 footer{

@@ -47,7 +47,8 @@ header img {
     position: relative;
     top: 0px;
     left: 0px;
-    width: 100%;
+    max-width: 1200px;
+    max-height: 400px;
 }
 
 .call-to-action-button{
@@ -65,6 +66,7 @@ header img {
     background-color: var(--nav-background-color);
     text-align: center;
     list-style-type: none;
+    max-height: fit-content;
 }
 
 nav ul li{
