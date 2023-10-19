@@ -76,11 +76,15 @@ nav a:hover {
 /*Here lise stuff that is not in the head*/
 
 main {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     padding: 0 15px;
     margin: auto;
 }
-
+#temple-container{
+    position: relative;
+    z-index: 1;
+}
 #temple-title{
     color: var(--accent1-color);
     text-shadow: #08135E 1px 1px 1px;
@@ -215,6 +219,8 @@ footer img {
     position: absolute;
     left: 0px;
     top: 80px;
+    z-index: 2;
+    background-color: var(--accent1-color);
 }
 
 

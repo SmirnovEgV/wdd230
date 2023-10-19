@@ -6,6 +6,6 @@ if (burger) {
     burger.addEventListener('click', function () {
         burger.classList.toggle('active')
         navmenu.classList.toggle('active')
-        temple_txt.style.top = '55%'
+       /* temple_txt.style.top = '55%'*/
     })
 }

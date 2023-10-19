@@ -1,0 +1,8 @@
+@media only screen and (min-width: 426px){
+
+    body{
+        max-width: 769px;
+        margin: 0 auto;
+    }
+
+}
