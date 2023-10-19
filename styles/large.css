@@ -63,6 +63,7 @@
         border-radius: 7px;
         overflow: hidden;
     }
+    /*work please*/
     .weather-card{
         grid-column: 2/3;
         border: black 2px solid;
