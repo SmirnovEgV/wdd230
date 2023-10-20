@@ -1,7 +1,7 @@
 function showWindChill(temp, speed){
-
-    const windchillSpan = document.getElementById('windchill in html')
-
+    
+    const windchillSpan = document.getElementById('windchill')
+    console.log(windchillSpan)
     let message = "N/A"
 
     if(temp <= 50 && speed > 3){
@@ -11,12 +11,14 @@ function showWindChill(temp, speed){
         message = `${chill}`
     }
 
-    windchillSpan.textContent= message
+    windchillSpan.textContent = message
 }
-
-    const temperatureSpan = document.getElementById("")
-    const windspeedSpan = document.getElementById("")
-    const temperature = parseInt(temperatureSpan)
-    const windspeed = parseInt(windspeedSpan)
-
-    showWindChill(temperature, windspeed)
+const temperatureSpan = document.getElementById("temperature")
+const windspeedSpan = document.getElementById("windspeed")
+console.log(temperatureSpan, windspeedSpan )
+     
+const temperature = parseInt(temperatureSpan.textContent)
+const windspeed = parseInt(windspeedSpan.textContent)
+console.log(temperature, windspeed )
+    
+showWindChill(temperature, windspeed)
