@@ -26,7 +26,12 @@
         <button id="dark-mode">Dark Mode</button> 
     </header>
     <section id="hero-section">
-        <img src="images/steal.webp" alt="hero-img-taken-from-the-web">
+        <picture>
+            <source media="(max-width: 425px)" srcset="images/wdd230-420-org.webp">
+            <source media="(max-width: 799px)" srcset="images/wdd230-720-org.webp">
+            <img src="images/Untitled-1200.webp" alt="Newbackground">
+        </picture>
+        <!--<img src="images/steal.webp" alt="hero-img-taken-from-the-web"> -->
         <button class="call-to-action-button"> Call to action</button>
         <button class="hamburger-menu-button">X</button>
     </section>
