@@ -118,7 +118,16 @@ img{
 #home-main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 3fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    text-align: center;
+}
+#current-events-section img {
+    border: solid black 3px;
+    box-shadow: black 3px 3px 10px;
+}
+.spotlights img {
+    border: solid black 3px;
+    box-shadow: black 3px 3px 10px;
 }
 #weather-sections{
     background-color: var(--accent2-color);
