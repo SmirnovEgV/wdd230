@@ -65,6 +65,14 @@ header div {
 }
 
 .call-to-action-button{
+    height: 45px;
+    font-family: var(--heading-font);
+    font-size: 0.9em;
+    border-radius: 15px;
+    background-color: var(--nav-background-color);
+    color: var(--paragraph-color-on-color);
+    font-family: var(--heading-font);
+    box-shadow: 5px 5px 8px var(--paragraph-color-on-color);
     position: absolute;
     top: 60%;
     left: calc(50% - 54px)
@@ -120,7 +128,13 @@ img{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 2fr;
     text-align: center;
+    font-family: var(--paragraph-font);
 }
+
+#home-main h2, h3 {
+    font-family: var(--heading-font);
+}
+
 #current-events-section img {
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
