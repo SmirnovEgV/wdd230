@@ -131,6 +131,15 @@ nav ul li a {
     text-align: center;
 }
 
+#discover-main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /*grid-template-rows: repeat(6, 1fr)*/
+}
+#points-of-interest{
+    grid-column: 2/3;
+    text-align: center;
+}
 footer{
     display: grid;
     background-color: var(--primary-color);
