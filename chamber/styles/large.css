@@ -134,10 +134,16 @@ nav ul li a {
 #discover-main{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    /*grid-template-rows: repeat(6, 1fr)*/
+}
+
+#counter-message{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border: none;
 }
 #points-of-interest{
     grid-column: 2/3;
+    grid-row: 1/2;
     text-align: center;
 }
 footer{

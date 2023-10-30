@@ -157,6 +157,17 @@ img{
     text-align: center;
 }
 
+#discover-main{
+    display: block;
+}
+
+#counter-message{
+    border: #1C5373 solid 2px;
+}
+#points-of-interest img{
+    margin: 20px 0px;
+    border: #1C5373 solid 2px;
+}
 
 footer{
     display: flex;
