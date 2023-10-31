@@ -134,6 +134,7 @@ nav ul li a {
 #discover-main{
     display: grid;
     grid-template-columns: 1fr 3fr;
+    grid-template-rows: 80px 280px 1fr;
 }
 
 #counter-message{
@@ -141,11 +142,27 @@ nav ul li a {
     grid-row: 1/2;
     border: none;
 }
+#demographics{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: solid 2px var(--accent2-color);
+}
 #points-of-interest{
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 1/4;
     text-align: center;
 }
+
+#points-of-interest img{
+    box-shadow: #08135E 3px 3px 5px;
+}
+#points-of-interest img:hover{
+    transform: scale(1.1);
+    box-shadow: #08135E 10px 10px 10px;
+    transition: transform .9s;
+}
+
 footer{
     display: grid;
     background-color: var(--primary-color);
