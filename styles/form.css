@@ -11,8 +11,8 @@ label{
 
 #slidervalues{
     display: flex;
-    width: 30rem;
-    margin: 0 0 0 8px;
+    width: 33rem;
+
 
 }
 #slidervalues option{
@@ -30,4 +30,11 @@ input:valid{
 }
 input:invalid{
     box-shadow: 3px 3px 3px red;
+}
+#form-main{
+    display: block;
+}
+#form-main form{
+    width: 600px;
+    margin: 0 auto;
 }

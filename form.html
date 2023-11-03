@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/formexe.css">
+    <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/getdates.js" defer></script>
-        <script src="scripts/burgmenu.js" defer></script>
-        <script src="scripts/site-visits.js" defer></script>
-        <script src="scripts/.." defer></script>
+    <script src="scripts/burgmenu.js" defer></script>
+    <script src="scripts/site-visits.js" defer></script>
+    <script src="scripts/form.js" defer></script>
     
     
 </head>
@@ -43,26 +43,26 @@
     </nav>
     
     <main id="form-main"> 
-        <form>
+        <form method="get" action="record.html"><span id="message"></span>
             <fieldset>
             <label>Username: <input id="username" name="username" type="text" required></label>
-            <label>Password: <input id="password" name="password" type="password" required pattern="[\w]{8,12}"></label>
+            <label>Password: <input id="password" name="password" type="password" required pattern="[A-Za-z0-9]{8,16}"></label>
             <label>Confirm Password: <input id="confirm" name="confirm" type="password" required></label>
             <label>Email: <input id="email" name="email" type="email" required pattern="[\w\]+@byui\.edu$" placeholder="Email pliz" title="Please enter a valid email address"></label>
-            <label>Page Rating <span id="currentrating">1</span><input id="rating" name="rating" type="range" min="1" max="10" step="1" list="slidervalues"></label>
+            <label>Page Rating <span id="currentrating">1</span><input id="rating" name="rating" type="range" min="1" max="10" value="1" step="1" list="slidervalues"></label>
             <datalist id="slidervalues">
-                <option value="1">I</option>
-                <option value="2">II</option>
-                <option value="3">III</option>
-                <option value="4">IV</option>
-                <option value="5">V</option>
-                <option value="6">VI</option>
-                <option value="7">LOLOL</option>
-                <option value="8">Lol</option>
-                <option value="9">KEK</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
                 <option value="10">10</option>
             </datalist>
-            <button>TRUST ME BRO</button>
+            <button id="submit" type="submit">TRUST ME BRO</button>
         </form>
     </fieldset>
     </main>
