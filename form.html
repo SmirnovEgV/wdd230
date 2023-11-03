@@ -12,10 +12,12 @@
     <meta property="og:description" content="Course assignment portal for WDD 230 - Web Frontend Development made by Egor Smirnov, a student in BYUI"/>
     <meta name="description" content="Course assignment portal for WDD 230 - Web Frontend Development made by Egor Smirnov, a student in BYUI"/>
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
+    
     <link rel="stylesheet" href="styles/form.css">
+    
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/burgmenu.js" defer></script>
     <script src="scripts/site-visits.js" defer></script>
@@ -34,7 +36,7 @@
             <span class="burger-row"></span>
         </button>
         <ul id="nav-menu" class="nav-menu">
-            <li><a id="active" href="#">Home</a></li>
+            <li><a id="active" href="index.html">Home</a></li>
             <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
             <li><a href="chamber/">Chamber</a></li>
             <li><a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a></li>
@@ -45,26 +47,26 @@
     <main id="form-main"> 
         <form method="get" action="record.html"><span id="message"></span>
             <fieldset>
-            <label>Username: <input id="username" name="username" type="text" required></label>
-            <label>Password: <input id="password" name="password" type="password" required pattern="[A-Za-z0-9]{8,16}"></label>
-            <label>Confirm Password: <input id="confirm" name="confirm" type="password" required></label>
-            <label>Email: <input id="email" name="email" type="email" required pattern="[\w\]+@byui\.edu$" placeholder="Email pliz" title="Please enter a valid email address"></label>
-            <label>Page Rating <span id="currentrating">1</span><input id="rating" name="rating" type="range" min="1" max="10" value="1" step="1" list="slidervalues"></label>
-            <datalist id="slidervalues">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </datalist>
-            <button id="submit" type="submit">TRUST ME BRO</button>
+                <label>Username: <input id="username" name="username" type="text" required></label>
+                <label>Password: <input id="password" name="password" type="password" required pattern="[A-Za-z0-9]{8,16}"></label>
+                <label>Confirm Password: <input id="confirm" name="confirm" type="password" required></label>
+                <label>Email: <input id="email" name="email" type="email" required pattern="[\w\]+@byui\.edu$" placeholder="Email pliz" title="Please enter a valid email address"></label>
+                <label>Page Rating <span id="currentrating">1</span><input id="rating" name="rating" type="range" min="1" max="10" value="1" step="1" list="slidervalues"></label>
+                <datalist id="slidervalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                <button id="submit" type="submit">TRUST ME BRO</button>
+            </fieldset>
         </form>
-    </fieldset>
     </main>
     <footer>
         <p id="year"></p> 
