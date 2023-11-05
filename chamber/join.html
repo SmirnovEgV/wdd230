@@ -32,52 +32,41 @@
             <img src="images/hero-1200.webp" alt="Minsk panorama">
         </picture>
         <!--<img src="images/steal.webp" alt="hero-img-taken-from-the-web"> -->
-        <button class="call-to-action-button"> Call to action</button>
         <button class="hamburger-menu-button">X</button>
     </section>
     <nav>
         <ul id="nav-menu" class="nav-menu">
-            <li><a id="active" href="#">Home</a></li>
+            <li><a  href="index.html">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li><a id="active" href="join.html">Join</a></li>
         </ul>
     </nav>
-    <main id="home-main">
+    <main id="join-main">
+        <form method="get" action="record.html"><span id="message"></span>
+            <fieldset>
+                <label>First name: <input id="first-name" name="first-name" type="text" required></label>
+                <label>Last name: <input id="last-name" name="last-name" type="text" required></label>
+                <label>Your title or postion in Company: <input id="comp-position" name="comp-position" type="text" pattern="[A-Za-z -]*{7,}"></label>
+                <label>Email: <input id="email" name="email" type="email" required pattern="[\w\]+@byui\.edu$" placeholder="abcdefg@mail.abc" title="Please enter a valid email address"></label>
+                <label>Phone number: <input id="phone-number" name="phone-number" type="tel" required></label>
+                <label>Organization/Business name: <input id="org-name" name="org-name" type="text" required></label>
+                <label>Select Membership Level:</label>
+                <select id="membership" name="membership">
+                    <option value="NP">NP Membership (No fee)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+                <input type="submit" value="Submit">
+                <label for="description">Business/Organization Description:</label>
+                <textarea id="description" name="description" rows="4" cols="50"></textarea>
+                <input type="submit" value="Submit">
+                <input type="hidden" id="timestamp" name="timestamp" value="" readonly>
+                <button id="submit" type="submit">TRUST ME BRO</button>
+            </fieldset>
+        </form>
         
-        <section id="current-events-section">
-            <h2>Current Events</h2>
-            <img src="images/currEvent.webp" alt="Exposition and Cooperation">
-            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quasi laborum, omnis suscipit quod architecto qui adipisci quaerat, culpa nulla perspiciatis assumenda quia ullam! Voluptatibus reiciendis doloribus facilis ad dolor. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor veniam earum aliquam iusto facilis doloribus autem alias laborum cupiditate voluptatum? Error beatae, minima provident placeat enim eius accusantium saepe a!</p>
-        </section>
-        <section id="weather-sections">
-            <h2>Weather</h2>
-           <div>
-            <img id="Weather-icon" src="images/weather1.png" alt="Weather-icon">
-            <h2><span id="temperature">44</span>°FF</h2>
-           </div>
-           <h2 id="weather-description">Cloudy</h2>
-           <hr> 
-           <h3> Wind Speed: <span id="windspeed">10</span>mph</h3>
-           <h3>Wind Chill: <span id="windchill"> </span>°F</h3>
-        </section>
-        <div id="spotlights">
-            <section class="spotlights">
-                <h3>СМОТРИ НА НАС</h3>
-                <img src="images/spotlight01.webp" alt="BELExpo 2023">
-                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quasi laborum, omnis suscipit quod architecto qui adipisci quaerat, culpa nulla perspiciatis assumenda quia ullam! Voluptatibus reiciendis doloribus facilis ad dolor.</p>
-            </section>
-            <section class="spotlights">
-                <h3>ХОДИ НА ВСТРЕЧИ</h3>
-                <img src="images/spotlight2.webp" alt="B Cooperation Conference">
-                <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quasi laborum, omnis suscipit quod architecto qui adipisci quaerat, culpa nulla perspiciatis assumenda quia ullam! Voluptatibus reiciendis doloribus facilis ad dolor.</p>
-            </section>
-            <section class="spotlights">
-                <h3>ПЛОТИ НОЛОГИ</h3>
-                <img src="images/spotlight3-300.webp" alt="Tax semenars">
-                <p>" Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum quasi laborum, omnis suscipit quod architecto qui adipisci quaerat, culpa nulla perspiciatis assumenda quia ullam! Voluptatibus reiciendis doloribus facilis ad dolor.</p>
-            </section>
-        </div>
     </main>
     
     <footer>
