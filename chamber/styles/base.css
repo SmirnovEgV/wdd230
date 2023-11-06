@@ -248,8 +248,8 @@ input:invalid{
 
 /*TABLE STYLING*/
 #ben-table{
-    max-width: 300px;
-    max-height: 300px;
+    margin: 20px 0px;
+    font-size: 0.5rem;
 }
 thead{
     background-color: black;

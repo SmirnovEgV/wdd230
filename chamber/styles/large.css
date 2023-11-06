@@ -192,6 +192,9 @@ footer{
     text-align: center;
     font-size: 1.1em;
 }
+#ben-table{
+    font-size: medium;
+}
 
 footer p {
     margin: 0 5px;
