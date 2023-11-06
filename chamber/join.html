@@ -51,22 +51,66 @@
                 <label>Email: <input id="email" name="email" type="email" required pattern="[\w\]+@byui\.edu$" placeholder="abcdefg@mail.abc" title="Please enter a valid email address"></label>
                 <label>Phone number: <input id="phone-number" name="phone-number" type="tel" required></label>
                 <label>Organization/Business name: <input id="org-name" name="org-name" type="text" required></label>
-                <label>Select Membership Level:</label>
+                <label>Select Membership Level: </label>
                 <select id="membership" name="membership">
-                    <option value="NP">NP Membership (No fee)</option>
-                    <option value="Bronze">Bronze Membership</option>
-                    <option value="Silver">Silver Membership</option>
-                    <option value="Gold">Gold Membership</option>
+                        <option value="NP">NP Membership (No fee)</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
                 </select>
-                <input type="submit" value="Submit">
-                <label for="description">Business/Organization Description:</label>
-                <textarea id="description" name="description" rows="4" cols="50"></textarea>
-                <input type="submit" value="Submit">
+                <input id="member-inp" type="submit" value="Submit">
+                <label for="description">Business/Organization Description: 
+                    <textarea id="description" name="description" rows="5" cols="50"></textarea>
+                    <input id="desc-inp" type="submit" value="Submit">
+                </label>
                 <input type="hidden" id="timestamp" name="timestamp" value="" readonly>
                 <button id="submit" type="submit">TRUST ME BRO</button>
             </fieldset>
         </form>
-        
+        <table id="ben-table">
+            <thead>
+                <tr>
+                    <td colspan="5">Membersip Subscription</td>
+                </th>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Fee</th>
+                    <th>Activity Discounts</th>
+                    <th>Priority Spotlights</th>
+                    <th>TAX REDUCTION</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>NP Membership (No fee)</td>
+                <td>$0</td>
+                <td>❌</td>
+                <td>❌</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <td>Bronze Membership</td>
+                <td>$15</td>
+                <td>15%</td>
+                <td>❌</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>Silver Membership</td>
+                <td>$50</td>
+                <td>40%</td>
+                <td>✔️</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <td>Gold Membership</td>
+                <td>$120</td>
+                <td>100%</td>
+                <td>✔️</td>
+                <td>50%</td>
+            </tr>
+            </tbody>
+        </table>
     </main>
     
     <footer>

@@ -162,7 +162,28 @@ nav ul li a {
     box-shadow: #08135E 10px 10px 10px;
     transition: transform .9s;
 }
-
+/*JOIN PAGE*/
+#join-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+#join-main form{
+    width: 600px;
+    margin: 0 auto;
+}
+input {
+    display: block;
+    padding: .5rem;
+    font-size: 1.5rem;
+    width: 30rem;
+}
+label{
+    margin: .5rem 0;
+    display: block;
+}
 footer{
     display: grid;
     background-color: var(--primary-color);
