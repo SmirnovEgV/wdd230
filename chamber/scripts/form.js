@@ -1,16 +1,5 @@
-const rating = document.getElementById("rating")
-rating.addEventListener('change',() => {
-    document.getElementById("currentrating").innerHTML = rating.value;
-})
+document.getElementById("timestamp").value = new Date().toLocaleString();
 
-const confirm1 = document.getElementById("confirm")
-confirm1.addEventListener('blur', ()=>{
-    const password= document.getElementById("password")
-    if(password.value != confirm1.value){
-        document.getElementById("message").innerHTML="Password not matching"
-        password.focus()
-    }
-    else{
-        document.getElementById("message").innerHTML =""
-    }
-})
+document.getElementById("submit").addEventListener("click", function() {
+    window.location.href = "thankyou.html";
+  });
