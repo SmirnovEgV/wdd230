@@ -1,0 +1,40 @@
+{"moveIns":
+[{
+    "name":"Nope",
+    "moveInDate":"2022/04/04",
+    "familySize": 7,
+    "visitedByBishop": false,
+    "members":[
+        {
+            "name":"Plain",
+            "sex": "M",
+            "birthdate":"1987/02/01"
+        },
+        {
+            "name":"Texts",
+            "sex": "F",
+            "birthdate":"1991/12/21"
+        },
+        {
+            "name":"Oho",
+            "sex": "M",
+            "birthdate":"1994/05/12"
+        },
+        {
+            "name":"Jojo",
+            "sex": "F",
+            "birthdate":"1996/09/11"
+        },
+        {
+            "name":"Dog",
+            "sex": "D",
+            "birthdate":"1999/01/01"
+        },
+        {
+            "name":"Io",
+            "sex": "F",
+            "birthdate":"2000/12/31"
+        }
+    
+    ]
+}]}
