@@ -1,0 +1,69 @@
+{
+    "members":[
+        {
+            "name": "company1",
+            "address": "hoh",
+            "phone": "222-333-444",
+            "website":"Https://gg.www.asm.com",
+            "imageURL": "pekaface.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "company2",
+            "address": "hoh",
+            "phone": "222-333-444",
+            "website":"Https://gg.www.asm.com",
+            "imageURL": "pekaface.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "company3",
+            "address": "hoh",
+            "phone": "222-333-444",
+            "website":"Https://gg.www.asm.com",
+            "imageURL": "pekaface.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "company4",
+            "address": "hoh",
+            "phone": "222-333-444",
+            "website":"Https://gg.www.asm.com",
+            "imageURL": "pekaface.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "company5",
+            "address": "hoh",
+            "phone": "222-333-444",
+            "website":"Https://gg.www.asm.com",
+            "imageURL": "pekaface.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "company6",
+            "address": "hoh",
+            "phone": "222-333-444",
+            "website":"Https://gg.www.asm.com",
+            "imageURL": "pekaface.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "company7",
+            "address": "hoh",
+            "phone": "222-333-444",
+            "website":"Https://gg.www.asm.com",
+            "imageURL": "pekaface.jpg",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "company8",
+            "address": "hoh",
+            "phone": "222-333-444",
+            "website":"Https://gg.www.asm.com",
+            "imageURL": "pekaface.jpg",
+            "membershipLevel": "Gold"
+        }
+
+    ]
+}
