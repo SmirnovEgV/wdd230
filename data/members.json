@@ -2,67 +2,67 @@
     "members":[
         {
             "name": "company1",
-            "address": "hoh",
-            "phone": "222-333-444",
-            "website":"Https://gg.www.asm.com",
+            "address": "Knorina Ul., bld. 50",
+            "phone": "+375(99)101-00-11",
+            "website":"https://www.stie1.by/",
             "imageURL": "./images/peka.png",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Non Profit"
         },
         {
             "name": "company2",
-            "address": "hoh",
-            "phone": "222-333-444",
-            "website":"Https://gg.www.asm.com",
+            "address": "Pushkina, bld. 24",
+            "phone": "+375(17)999-06-12",
+            "website":"Https://www.hehe.com",
             "imageURL": "./images/peka.png",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Bronze"
         },
         {
             "name": "company3",
-            "address": "hoh",
-            "phone": "222-333-444",
+            "address": "Olshevskogo Ul., bld. 11",
+            "phone": "8 066 101-55-41",
             "website":"Https://gg.www.asm.com",
             "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         },
         {
             "name": "company4",
-            "address": "hoh",
-            "phone": "222-333-444",
-            "website":"Https://gg.www.asm.com",
+            "address": "Olshevskogo Ul., bld. 73",
+            "phone": "8 046 181-55-99",
+            "website":"Https://gg.www.krabyrulat.com",
             "imageURL": "./images/peka.png",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Bronze"
         },
         {
             "name": "company5",
-            "address": "hoh",
-            "phone": "222-333-444",
-            "website":"Https://gg.www.asm.com",
+            "address": "Ulyanovskaya Ul., bld. 21",
+            "phone": "8 022 222-333-444",
+            "website":"Https://gs.www.whyamidointhis.com",
             "imageURL": "./images/peka.png",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Non Profit"
         },
         {
             "name": "company6",
-            "address": "hoh",
-            "phone": "222-333-444",
-            "website":"Https://gg.www.asm.com",
+            "address": "Kalvariyskaya Ul., bld. 58/1",
+            "phone": "+375(11)222-31-54",
+            "website":"Https://www.ohno.by",
             "imageURL": "./images/peka.png",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Silver"
         },
         {
             "name": "company7",
-            "address": "hoh",
-            "phone": "222-333-444",
-            "website":"Https://gg.www.asm.com",
+            "address": "Brovki Ul., bld. 7/А",
+            "phone": "+7(078) 222-63-84",
+            "website":"Https://mg.www.lohi.by",
             "imageURL": "./images/peka.png",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Bronze"
         },
         {
             "name": "company8",
-            "address": "hoh",
-            "phone": "222-333-444",
-            "website":"Https://gg.www.asm.com",
+            "address": "Kozlova Ul., bld. 60",
+            "phone": "+7 077 9990022",
+            "website":"Https://ll.www.notyourlist.com",
             "imageURL": "./images/peka.png",
-            "membershipLevel": "Gold"
+            "membershipLevel": "Silver"
         }
 
     ]

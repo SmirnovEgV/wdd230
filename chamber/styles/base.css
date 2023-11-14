@@ -303,12 +303,14 @@ caption{
     padding: 1rem;
     margin: .5rem;
     border-radius: 5px;
-    background-color: var(--body-bg-color);
+    color: var(--nav-link-color);
+    background-color: var(--headline-color-on-white);
     border: 1px black solid;
 }
 
 #selectors button.active{
-    background-color: var(--hover-background-color);
+    color: var(--nav-link-color);
+    background-color: var(--headline-color-on-white);
 }
 
 /* Cards view */
@@ -321,9 +323,10 @@ caption{
 
 .directory-info section{
     text-align: center;    
-    border: 2px solid grey;    
+    border: 2px solid grey;
+    border-radius: 15px ;    
     width: 300px;
-    background-color: var(--menu-bg-color);
+    background-color: var(--nav-link-color);
     padding: 1rem;
     margin: .5rem;
 }
@@ -334,13 +337,14 @@ caption{
 
 
 .directory-info .gold-member{
+    border: #F59F00 5px solid;
     box-shadow: .5rem .5rem .5rem gold;
 }
 
 .directory-info .card-button{
     text-decoration: none;
-    color: white;
-    background-color: var(--hover-background-color);
+    color: var(--nav-hover-background-color);
+    background-color: var(--headline-color-on-white);
     padding: .5rem;
     border-radius: 5px;
 }

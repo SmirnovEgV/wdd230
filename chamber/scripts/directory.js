@@ -33,7 +33,7 @@ const displayMembers = (members) => {
         <p>${member.address}</p>
         <p>${member.phone}</p>
         <p><a class="card-button" href="${member.website}"> Website</a></p>`
-        if (member.membershipLevel == 'gold'){
+        if (member.membershipLevel == 'Gold'){
             card.classList.add('gold-member')
         }
         cards.appendChild(card)    
