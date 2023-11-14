@@ -5,7 +5,7 @@
             "address": "hoh",
             "phone": "222-333-444",
             "website":"Https://gg.www.asm.com",
-            "imageURL": "pekaface.jpg",
+            "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "hoh",
             "phone": "222-333-444",
             "website":"Https://gg.www.asm.com",
-            "imageURL": "pekaface.jpg",
+            "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         },
         {
@@ -21,7 +21,7 @@
             "address": "hoh",
             "phone": "222-333-444",
             "website":"Https://gg.www.asm.com",
-            "imageURL": "pekaface.jpg",
+            "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         },
         {
@@ -29,7 +29,7 @@
             "address": "hoh",
             "phone": "222-333-444",
             "website":"Https://gg.www.asm.com",
-            "imageURL": "pekaface.jpg",
+            "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         },
         {
@@ -37,7 +37,7 @@
             "address": "hoh",
             "phone": "222-333-444",
             "website":"Https://gg.www.asm.com",
-            "imageURL": "pekaface.jpg",
+            "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         },
         {
@@ -45,7 +45,7 @@
             "address": "hoh",
             "phone": "222-333-444",
             "website":"Https://gg.www.asm.com",
-            "imageURL": "pekaface.jpg",
+            "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         },
         {
@@ -53,7 +53,7 @@
             "address": "hoh",
             "phone": "222-333-444",
             "website":"Https://gg.www.asm.com",
-            "imageURL": "pekaface.jpg",
+            "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         },
         {
@@ -61,7 +61,7 @@
             "address": "hoh",
             "phone": "222-333-444",
             "website":"Https://gg.www.asm.com",
-            "imageURL": "pekaface.jpg",
+            "imageURL": "./images/peka.png",
             "membershipLevel": "Gold"
         }
 
