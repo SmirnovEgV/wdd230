@@ -2,7 +2,7 @@
     /* change the values below to your colors from your palette */
     --primary-color: #1C5373;
     --secondary-color: #FFFADD;
-    --accent1-color: #F59F00;
+    --accent1-color: #FFFF00;
     --accent2-color: #8ECDDD;
     /* change the values below to your chosen font(s) */
     --heading-font: "Roboto Slab", sans-serif;
@@ -37,7 +37,7 @@ header{
     height: 70px;
 }
 header img {
-    width: 15%;
+    width: 80%;
 }
 #hero-section{
     position: relative;
@@ -206,7 +206,7 @@ footer img {
 }
 #lastModified{
     text-decoration: underline;
-    color: orange;
+    color: var(--accent1-color);
     font-size: 0.9em;
 
 }

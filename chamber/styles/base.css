@@ -3,7 +3,7 @@
     /* change the values below to your colors from your palette */
     --primary-color: #1C5373;
     --secondary-color: #FFFADD;
-    --accent1-color: #F59F00;
+    --accent1-color: #FFFF00;
     --accent2-color: #8ECDDD;
     /* change the values below to your chosen font(s) */
     --heading-font: "Roboto Slab", sans-serif;
@@ -58,7 +58,7 @@ header{
     height: 30px;
 }
 header img {
-    width: 90%;
+    width: 100%;
 }
 header div {
     display: grid;
@@ -200,7 +200,7 @@ footer a {
 }
 #lastModified{
     text-decoration: underline;
-    color: orange;
+    color: var(--accent1-color);
     font-size: 1.1em;
 
 }

@@ -40,6 +40,7 @@ const displayMembers = (members) => {
     });
 }
 
+
 async function getBusinessData(){
     const response = await fetch(url)
     if (response.ok){
