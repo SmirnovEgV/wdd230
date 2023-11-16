@@ -1,0 +1,39 @@
+{
+    "coord":{"lon":27.4286,"lat":53.8847}
+    ,"weather":[
+        {"id":804,"main":"Clouds",
+        "description":"overcast clouds",
+        "icon":"04n"}
+        ]
+    ,"base":"stations"
+    ,"main":{
+        "temp":33.35,
+        "feels_like":26.49,
+        "temp_min":33.35,
+        "temp_max":33.35,
+        "pressure":1010,
+        "humidity":97,
+        "sea_level":1010,
+        "grnd_level":981
+        },
+    "visibility":82,
+    "wind":{
+        "speed":7.99,
+        "deg":11,
+        "gust":15.03
+        }
+    ,"clouds":{
+        "all":100
+        }
+    ,"dt":1700104701,
+    "sys":{
+        "type":1,
+        "id":8939,
+        "country":"BY",
+        "sunrise":1700113113,
+        "sunset":1700143898
+        },
+    "timezone":10800,
+    "id":624400,
+    "name":"Novoye Medvezhino",
+    "cod":200}
