@@ -68,12 +68,17 @@
         overflow: hidden;
     }
     /*work please*/
-    .weather-card{
+    #weather-sections{
         grid-column: 2/3;
         border: black 2px solid;
         border-radius: 7px;
         overflow: hidden;
         text-align: center;
+        font-size: medium;
+    }
+    #weather-sections img {
+        border: 2px black solid;
+        background-color: gray;
     }
     .nav-menu{
         max-height: 100px;

@@ -62,11 +62,17 @@
                 <li>11:<a href="#">SHLAK</a></li>
             </ul>
         </section>
-        <section class="weather-card">
-            <h3>Information</h3>
-            <p>here lies the weather and number of visits functionality <br> DO NOT DISTURB</p>
-
-            <p>Visit Count: <span id="visit-count"></span></p>
+        <section id="weather-sections">
+            <h3>Weather in Minsk</h3>
+            <h4 id="area"></h4>
+           <div>
+            <img id="Weather-icon" src="#" alt="Weather-icon">
+            <h4 id="temperature"></h4>
+           </div>
+           <h4 id="weather-description"></h4>
+           <hr> 
+           <h3 id="windchill" style="font-style: italic;"></h3>
+           <p>Visit Count: <span id="visit-count"></span></p>
         </section>
         <section class="mapthing">
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d150476.3657768835!2d27.616703021659625!3d53.89282307242988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1695764846693!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -81,7 +87,7 @@
 
         <script src="scripts/getdates.js" defer></script>
         <script src="scripts/burgmenu.js" defer></script>
-        
+        <script src="scripts/windthing.js" defer></script>
         <script src="scripts/site-visits.js" defer></script>
     </footer>
 

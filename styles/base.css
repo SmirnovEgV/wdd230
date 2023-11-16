@@ -118,9 +118,20 @@ h2 {
     padding-left: 10px;
 }
 .weather-card {
+    
+}
+
+#weather-sections{
     text-align: center;
     display: inline;
     vertical-align: middle;
+    border: black 2px solid;
+    border-radius: 7px;
+    overflow: hidden;
+}
+#weather-sections img {
+    border: 2px black solid;
+    background-color: gray;
 }
 .mapthing {
     border: #3D4338 5px solid;
