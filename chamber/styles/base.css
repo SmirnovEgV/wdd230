@@ -155,15 +155,16 @@ img{
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
 }
-.spotlights{
+#sp-fordark{
     border: var(--headline-color-on-white) 2px solid;
     border-radius: 10px;
-    background-color: var(--nav-hover-background-color);
 }
-.spotlights img {
+#sp-fordark img {
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
 }
+
+
 #weather-sections{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -109,7 +109,7 @@ nav ul li a {
     grid-gap: 5px;
     padding: 10px 10px;
 }
-.spotlights img {
+#sp-fordark img {
     width: 240px;
     height: auto;
 }
