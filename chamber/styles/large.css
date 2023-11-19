@@ -86,7 +86,7 @@ nav ul li a {
 #home-main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 100px;
+    grid-template-rows: 40px 1fr 1fr 100px;
     text-align: center;
     font-family: var(--paragraph-font);
 }
@@ -102,10 +102,18 @@ nav ul li a {
 
 #spotlights{
     border-top: 10px solid var(--accent1-color);
-    display: flex;
     grid-column: 1/4;
-    grid-row: 2/3;
+    grid-row: 3/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 10px 10px;
 }
+.spotlights img {
+    width: 240px;
+    height: auto;
+}
+
 
 #current-events-section h2{
     grid-column: 1/3;
@@ -123,12 +131,8 @@ nav ul li a {
     box-shadow: black 3px 3px 10px;
 }
 #weather-sections{
-    background-color: var(--accent2-color);
-    max-width: 400px;
-    width: 100%;
-    max-height: 400px;
-    margin: 0 auto;
-    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
 
 #discover-main{

@@ -1,84 +1,58 @@
-const lat = "53.8847295"
-const lon = "27.4285621"
-const key = "57feb85cb44071db709bef659cd8691a"
+const lat = "53.8847295";
+const lon = "27.4285621";
+const key = "57feb85cb44071db709bef659cd8691a";
 
-const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${key}&units=imperial`
+const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${key}&units=imperial`;
 
-function dsiplayWeather(weatherData){
+console.log(url);
 
-    const icon = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`
-    const desc = weatherData.weather[0].description;
-    const windspeed = weatherData.wind.speed.toFixed(0);
-    const temperatur = weatherData.main.temp.toFixed(0);
-    const area = weatherData.name;
+const One_Day = 24 * 60 * 60 * 1000;
 
-    let weatherIcon = document.getElementById("Weather-icon");
-    weatherIcon.setAttribute('src', icon);
-    weatherIcon.setAttribute('alt', desc);
-    let preciseArea = document.getElementById("area");
-    preciseArea.innerHTML = `In the area of: ${area}`; 
+function displayWeatherForecast(dataset) {
+  let dates = [];
+  let mydates = new Date();
+  for (let i = 0; i < 3; i++) {
+    mydates = new Date(mydates.getTime() + One_Day);
+    nextdate = mydates.toISOString().slice(0, 10);
+    dates.push(nextdate);
+  }
 
-    let weatherDesc = document.getElementById("weather-description");
-    weatherDesc.innerHTML = `Weather state is: ${desc}`;
+  const highTemps = dates.map((date) =>
+    dataset
+      .filter((x) => x.dt_txt.startsWith(date))
+      .reduce((currentObj, highObj) =>
+        currentObj.main.temp > highObj.main.temp ? currentObj : highObj
+      )
+  );
 
-    let weatherTemp = document.getElementById("temperature");
-    weatherTemp.innerHTML = `Right now is ${temperatur}&deg;F <br> with the windspeed of: ${windspeed} mph`;
+  const lowTemps = dates.map((date) =>
+    dataset
+      .filter((x) => x.dt_txt.startsWith(date))
+      .reduce((currentObj, lowObj) =>
+        currentObj.main.temp < lowObj.main.temp ? currentObj : lowObj
+      )
+  );
 
-
-    const windchillSpan = document.getElementById('windchill')
-    console.log(windchillSpan)
-    let message = "N/A"
-    
-    if(temperatur <= 50 && windspeed > 3){
-    
-            let chillfactor = Math.pow(windspeed, 0.16)
-            let chill = Math.round(35.74 + (0.6215*temperatur) - (35.75*chillfactor) + (0.4275 * temperatur * chillfactor))
-            message = `Feels like: ${chill}°F`
-        }
-    
-    windchillSpan.textContent = message
- }
-
-async function getWeather(){
-    try{
-        const response = await fetch(url);
-        if(response.ok){
-            const data = await response.json();
-            dsiplayWeather(data);
-
-        }
-        else{
-            throw Error(await response.text());
-        }
-    } catch (error) {
-        console.log(error);
-    }
+  const weatherElt = document.getElementById("weather-sections");
+  for (let i = 0; i < 3; i++) {
+    let newsection = document.createElement("section");
+    newsection.innerHTML = `<h2>${dates[i]}</h2><p>High ${highTemps[i].main.temp.toFixed(0)}&deg;</p><p>Low: ${lowTemps[i].main.temp.toFixed(0)}&deg;</p>`;
+    weatherElt.append(newsection);
+  }
 }
 
-
-getWeather(); 
-
-
-/*function showWindChill(temp, speed){
-    
-    const windchillSpan = document.getElementById('windchill')
-    console.log(windchillSpan)
-    let message = "N/A"
-
-    if(temp <= 50 && speed > 3){
-
-        let chillfactor = Math.pow(speed, 0.16)
-        let chill = Math.round(35.74 + (0.6215*temp) - (35.75*chillfactor) + (0.4275 * temp * chillfactor))
-        message = `${chill}`
+async function getWeather() {
+  try {
+    const response = await fetch(url);
+    if (response.ok) {
+      const data = await response.json();
+      displayWeatherForecast(data.list);
+    } else {
+      throw Error(await response.text());
     }
-
-    windchillSpan.textContent = message
+  } catch (error) {
+    console.log(error);
+  }
 }
-const temperatureSpan = document.getElementById("temperature")
-const windspeedSpan = document.getElementById("windspeed")
-     
-const temperature = parseInt(temperatureSpan.textContent)
-const windspeed = parseInt(windspeedSpan.textContent)
-    
-showWindChill(temperature, windspeed)
-*/
+
+getWeather();
