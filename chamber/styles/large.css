@@ -86,7 +86,7 @@ nav ul li a {
 #home-main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 40px 1fr 1fr 100px;
+    grid-template-rows: 50px 1fr 1fr 100px;
     text-align: center;
     font-family: var(--paragraph-font);
 }
@@ -213,5 +213,11 @@ footer img {
     color: var(--accent1-color);
     font-size: 0.9em;
 
+}
+
+/*BANNER */
+
+#banner-meet{
+    padding: 15px 0px;
 }
 }
