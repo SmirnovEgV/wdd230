@@ -155,16 +155,21 @@ img{
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
 }
-#sp-fordark{
+.spotlights{
     border: var(--headline-color-on-white) 2px solid;
     border-radius: 10px;
 }
-#sp-fordark img {
+.spotlights img {
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
 }
 
-
+#weather-main{
+    background-color: var(--headline-color-on-white);
+    color: var(--nav-hover-background-color);
+    border-radius: 10px;
+    padding: 10px 0;
+}
 #weather-sections{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

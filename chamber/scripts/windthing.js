@@ -8,6 +8,43 @@ console.log(url);
 
 const One_Day = 24 * 60 * 60 * 1000;
 
+function dsiplayWeather(dataset){
+  console.log(dataset)
+  const item = dataset[0];
+  const icon = `https://openweathermap.org/img/wn/${item.weather[0].icon}.png`
+  const desc = item.weather[0].description;
+  const windspeed = item.wind.speed.toFixed(0);
+  const temperatur = item.main.temp.toFixed(0);
+  const area = "Minsk Central";
+
+  let weatherIcon = document.getElementById("Weather-icon");
+  weatherIcon.setAttribute('src', icon);
+  weatherIcon.setAttribute('alt', desc);
+  let preciseArea = document.getElementById("area");
+  preciseArea.innerHTML = `In the area of: ${area}`; 
+
+  let weatherDesc = document.getElementById("weather-description");
+  weatherDesc.innerHTML = `Weather state is: ${desc}`;
+
+  let weatherTemp = document.getElementById("temperature");
+  weatherTemp.innerHTML = `Right now is ${temperatur}&deg;F <br> with the windspeed of: ${windspeed} mph`;
+
+
+  const windchillSpan = document.getElementById('windchill')
+  console.log(windchillSpan)
+  let message = "N/A"
+  
+  if(temperatur <= 50 && windspeed > 3){
+  
+          let chillfactor = Math.pow(windspeed, 0.16)
+          let chill = Math.round(35.74 + (0.6215*temperatur) - (35.75*chillfactor) + (0.4275 * temperatur * chillfactor))
+          message = `Feels like: ${chill}°F`
+      }
+  
+  windchillSpan.textContent = message
+}
+
+
 function displayWeatherForecast(dataset) {
   let dates = [];
   let mydates = new Date();
@@ -47,6 +84,7 @@ async function getWeather() {
     if (response.ok) {
       const data = await response.json();
       displayWeatherForecast(data.list);
+      dsiplayWeather(data.list);
     } else {
       throw Error(await response.text());
     }
