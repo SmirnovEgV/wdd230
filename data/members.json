@@ -1,67 +1,75 @@
 {
     "members":[
         {
-            "name": "company1",
-            "address": "Knorina Ul., bld. 50",
-            "phone": "+375(99)101-00-11",
-            "website":"https://www.stie1.by/",
+            "name": "4th City Clinical Hospital",
+            "address": "Minsk, 110 Rozy Liuksiemburh st.",
+            "phone": "+375 17 242-36-60",
+            "website":"http://4gkb.by/",
             "imageURL": "./images/peka.png",
+            "text": "",
             "membershipLevel": "Non Profit"
         },
         {
-            "name": "company2",
-            "address": "Pushkina, bld. 24",
-            "phone": "+375(17)999-06-12",
-            "website":"Https://www.hehe.com",
-            "imageURL": "./images/peka.png",
+            "name": "National Academic Bolshoi Opera and Ballet Theatre",
+            "address": "Minsk, Parizhskaya Kommuna sq., 1",
+            "phone": "+375 17 243-10-41",
+            "website":"https://bolshoibelarus.by/eng/",
+            "imageURL": "./images/teatr.webp",
+            "text": "",
             "membershipLevel": "Bronze"
         },
         {
-            "name": "company3",
-            "address": "Olshevskogo Ul., bld. 11",
-            "phone": "8 066 101-55-41",
-            "website":"Https://gg.www.asm.com",
-            "imageURL": "./images/peka.png",
+            "name": "BELOMO",
+            "address": "Minsk, 23 Makayonok St.",
+            "phone": "+375 17 348-44-71",
+            "website":"https://belomo.by/en/",
+            "imageURL": "./images/belomoLogo.webp",
+            "text": "",
             "membershipLevel": "Gold"
         },
         {
-            "name": "company4",
-            "address": "Olshevskogo Ul., bld. 73",
-            "phone": "8 046 181-55-99",
-            "website":"Https://gg.www.krabyrulat.com",
-            "imageURL": "./images/peka.png",
-            "membershipLevel": "Bronze"
-        },
-        {
-            "name": "company5",
-            "address": "Ulyanovskaya Ul., bld. 21",
-            "phone": "8 022 222-333-444",
-            "website":"Https://gs.www.whyamidointhis.com",
-            "imageURL": "./images/peka.png",
-            "membershipLevel": "Non Profit"
-        },
-        {
-            "name": "company6",
-            "address": "Kalvariyskaya Ul., bld. 58/1",
-            "phone": "+375(11)222-31-54",
-            "website":"Https://www.ohno.by",
-            "imageURL": "./images/peka.png",
+            "name": "GREEN CITY",
+            "address": "Minsk, 156 Pritytskogo St.",
+            "phone": "+375 29 104-99-22",
+            "website":"https://greencityminsk.by/?utm_source=maps&utm_medium=google&utm_campaign=main",
+            "imageURL": "./images/GreenCityLogo.webp",
+            "text": "",
             "membershipLevel": "Silver"
         },
         {
-            "name": "company7",
-            "address": "Brovki Ul., bld. 7/А",
-            "phone": "+7(078) 222-63-84",
-            "website":"Https://mg.www.lohi.by",
-            "imageURL": "./images/peka.png",
+            "name": "OZON",
+            "address": "Minsk,Beloruskaya st. 17",
+            "phone": "8 022 222-333-444",
+            "website":"https://www.ozon.ru/product/nashivka-shevron-patch-patch-lyagushonok-pepe-razmer-7-6-sm-2sht-273444892/",
+            "imageURL": "./images/pepe.webp",
+            "text": "",
+            "membershipLevel": "Non Profit"
+        },
+        {
+            "name": "Galleria Minsk",
+            "address": "Minsk, 9 Prospekte Pobeditelei Blv.",
+            "phone": "+375 44 555-74-98",
+            "website":"https://galleria-minsk.by/",
+            "imageURL": "./images/GM.webp",
+            "text": "",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Minsk-Passazhirskij",
+            "address": "Minsk, 5 Pryvakzaĺnaja plošča",
+            "phone": "+375 17 225-19-45",
+            "website":"https://pass.rw.by/ru/railway_stations/minsk_passenger/?t=1",
+            "imageURL": "./images/BZD.webp",
+            "text": "",
             "membershipLevel": "Bronze"
         },
         {
-            "name": "company8",
-            "address": "Kozlova Ul., bld. 60",
-            "phone": "+7 077 9990022",
-            "website":"Https://ll.www.notyourlist.com",
-            "imageURL": "./images/peka.png",
+            "name": "G.U.M.",
+            "address": "Misnk, Blv.Niezaliežnasci 21",
+            "phone": "+375 17 323-10-48",
+            "website":"https://www.gum.by/",
+            "imageURL": "./images/gum.webp",
+            "text": "",
             "membershipLevel": "Silver"
         }
 

@@ -354,7 +354,6 @@ caption{
     border: 2px solid grey;
     border-radius: 15px ;    
     width: 300px;
-    background-color: var(--nav-link-color);
     padding: 1rem;
     margin: .5rem;
 }

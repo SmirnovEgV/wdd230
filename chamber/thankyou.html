@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You!</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <p>I might try to use ss tailwind here!</p>
+<body class="flex">
+    <div class="flex-1">
+        <h2>This is how it looks without Tailwindcss</h2>
+        <p>Basic plain text in HTML, you can do this <b>This</b> or this <i>This</i> but that is it!</p>
+    </div>
+    <section class="flex-1 bg-blue-300 p-20 container">
+        <div class="max-w-8xl mx-auto pt-14 sm:pt-20 md:pt-32 xl:pt-36 mb-20 md:mb-32 px-4 sm:px-6 lg:px-8">
+            <h2 class="mt-8 max-w-5xl text-slate-500 text-3xl sm:text-6xl tracking-tight font-bold dark:text-white">That is how it looks like with Tailwind CSS</h2>
+            <p class="mt-4 max-w-3xl prose prose-slate dark:prose-dark">HTML migh look overloaded but from other perspective CSS file wouldn't be huge and you can see strait ahead what where used to style this page.</p>
+        </div>
+    </section>
+    
 </body>
 </html>
+
