@@ -1,0 +1,76 @@
+{
+    "members":[
+        {
+            "name": "4th City Clinical Hospital",
+            "address": "Minsk, 110 Rozy Liuksiemburh st.",
+            "phone": "+375 17 242-36-60",
+            "website": "http://4gkb.by/",
+            "imageURL": "./images/peka.png",
+            "text": "4th City Clinical Hospital is a dedicated healthcare provider, offering comprehensive medical services to the community. Committed to non-profit healthcare.",
+            "membershipLevel": "Non Profit"
+        },
+        {
+            "name": "National Academic Bolshoi Opera and Ballet Theatre",
+            "address": "Minsk, Parizhskaya Kommuna sq., 1",
+            "phone": "+375 17 243-10-41",
+            "website": "https://bolshoibelarus.by/eng/",
+            "imageURL": "./images/teatr.webp",
+            "text": "The National Academic Bolshoi Opera and Ballet Theatre is a cultural icon, showcasing world-class performances in the heart of Minsk. Proudly holding a Bronze membership.",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "BELOMO",
+            "address": "Minsk, 23 Makayonok St.",
+            "phone": "+375 17 348-44-71",
+            "website": "https://belomo.by/en/",
+            "imageURL": "./images/belomoLogo.webp",
+            "text": "BELOMO is a leading optics and optical machinery manufacturer, contributing to technological advancements globally. Recognized with a prestigious Gold membership.",
+            "membershipLevel": "Gold"
+        },
+        {
+            "name": "GREEN CITY",
+            "address": "Minsk, 156 Pritytskogo St.",
+            "phone": "+375 29 104-99-22",
+            "website": "https://greencityminsk.by/?utm_source=maps&utm_medium=google&utm_campaign=main",
+            "imageURL": "./images/GreenCityLogo.webp",
+            "text": "GREEN CITY is at the forefront of sustainable urban development, creating eco-friendly spaces for a greener future. Proudly holding a Silver membership.",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "OZON",
+            "address": "Minsk, Beloruskaya st. 17",
+            "phone": "8 022 222-333-444",
+            "website": "https://www.ozon.ru/product/nashivka-shevron-patch-patch-lyagushonok-pepe-razmer-7-6-sm-2sht-273444892/",
+            "imageURL": "./images/pepe.webp",
+            "text": "OZON offers a diverse range of products, including unique patches and accessories. Contributing as a non-profit member to various causes.",
+            "membershipLevel": "Non Profit"
+        },
+        {
+            "name": "Galleria Minsk",
+            "address": "Minsk, 9 Prospekte Pobeditelei Blv.",
+            "phone": "+375 44 555-74-98",
+            "website": "https://galleria-minsk.by/",
+            "imageURL": "./images/GM.webp",
+            "text": "Galleria Minsk is a premier shopping destination, providing an exceptional retail experience in the heart of the city. Distinguished with a Silver membership.",
+            "membershipLevel": "Silver"
+        },
+        {
+            "name": "Minsk-Passazhirskij",
+            "address": "Minsk, 5 Pryvakzaĺnaja plošča",
+            "phone": "+375 17 225-19-45",
+            "website": "https://pass.rw.by/ru/railway_stations/minsk_passenger/?t=1",
+            "imageURL": "./images/BZD.webp",
+            "text": "Minsk-Passazhirskij plays a vital role in the transportation network, connecting people and facilitating travel. Honored with a Bronze membership.",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "name": "G.U.M.",
+            "address": "Misnk, Blv.Niezaliežnasci 21",
+            "phone": "+375 17 323-10-48",
+            "website": "https://www.gum.by/",
+            "imageURL": "./images/gum.webp",
+            "text": "G.U.M. is an iconic shopping venue, offering a premium selection of luxury brands and retail experiences. Distinguished with a Silver membership.",
+            "membershipLevel": "Silver"
+        }
+    ]
+}

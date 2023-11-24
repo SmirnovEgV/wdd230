@@ -97,7 +97,11 @@ nav ul li a {
     grid-template-rows: 50px 1fr;
     grid-gap: 10px;
     grid-column: 1/3;
-    grid-row: inherit;
+    grid-row: 1/3;
+}
+#weather{
+    grid-column: 3/4;
+    grid-row: 2/3;
 }
 
 #spotlights{
@@ -214,7 +218,6 @@ footer img {
     font-size: 0.9em;
 
 }
-
 /*BANNER */
 
 #banner-meet{
