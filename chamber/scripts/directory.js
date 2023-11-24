@@ -20,7 +20,7 @@ listSelector.addEventListener('click', ()=>{
     }
 })
 
-const url = "../data/members.json"
+const url = "./data/members.json"
 
 const displayMembers = (members) => {
     const cards = document.querySelector(".directory-info")
