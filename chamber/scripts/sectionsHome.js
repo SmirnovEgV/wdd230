@@ -10,13 +10,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 indexes.add(Math.floor(Math.random() * 8 ))
             }
             console.log("ss", indexes)
-            const spotlightsSection = document.querySelectorAll('.spotlights');
+            const spotlightsSection = document.getElementById('spotlights');
             var j = 0
             indexes.forEach(i => {
-                spotlightsSection[j].querySelector('h3').textContent = data.members[i].name;
-                spotlightsSection[j].querySelector('img').src = data.members[i].imageURL;
-                spotlightsSection[j].querySelector('p').textContent = data.members[i].text;
-                spotlightsSection[j].querySelector('img[alt]').textContent = `${data.members[i].name} Logo`
+                let newsection = document.createElement("section");
+                newsection.innerHTML = `<h3>${ data.members[i].name}</h3> <img src=${data.members[i].imageURL} alt=${data.members[i].name} Logo><p>${data.members[i].text}</p>`
+                spotlightsSection.append(newsection)
                 j++
             })
         })

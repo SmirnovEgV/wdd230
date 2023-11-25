@@ -113,7 +113,7 @@ nav ul li a {
     grid-gap: 5px;
     padding: 10px 10px;
 }
-.spotlights img {
+#spotlights img {
     width: 240px;
     height: auto;
 }
@@ -130,7 +130,7 @@ nav ul li a {
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
 }
-.spotlights img {
+#spotlights img {
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
 }
@@ -179,18 +179,20 @@ nav ul li a {
     font-size: 1.5rem;
 }
 #join-main form{
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
 }
+
 input {
     display: block;
     padding: .5rem;
     font-size: 1.5rem;
-    width: 30rem;
+    width: 23rem;
 }
 label{
     margin: .5rem 0;
     display: block;
+    width: 75%;
 }
 footer{
     display: grid;
@@ -200,8 +202,9 @@ footer{
     text-align: center;
     font-size: 1.1em;
 }
+
 #ben-table{
-    font-size: medium;
+    font-size: small;
 }
 
 footer p {

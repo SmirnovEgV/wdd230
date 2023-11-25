@@ -155,11 +155,11 @@ img{
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
 }
-.spotlights{
+#spotlights section{
     border: var(--headline-color-on-white) 2px solid;
     border-radius: 10px;
 }
-.spotlights img {
+#spotlights img {
     border: solid black 3px;
     box-shadow: black 3px 3px 10px;
 }
@@ -275,7 +275,7 @@ input:invalid{
     width: fit-content;
 }
 #description {
-    width: 100%;
+    width: 70%;
     height: 160px
 }
 
