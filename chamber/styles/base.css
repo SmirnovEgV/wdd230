@@ -157,7 +157,7 @@ img{
 }
 #spotlights section{
     border: var(--headline-color-on-white) 2px solid;
-    border-radius: 11px;
+    border-radius: 10px;
 }
 #spotlights img {
     border: solid black 3px;
