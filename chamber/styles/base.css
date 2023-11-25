@@ -176,7 +176,6 @@ img{
     background-color: var(--headline-color-on-white);
     color: var(--nav-hover-background-color);
     font-family: 'Roboto slab', sans-serif;
-    max-width: 36bannerpx;
     width: 100%;
     height: 150px;
     margin: 10px auto;
