@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="normalize.min.css"/>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/fruitSelectors.js" defer></script>
+    <script src="scripts/formSubmition.js" defer></script>
     
 </head>
 <body>
@@ -27,7 +29,44 @@
     </nav>
     
     <main>  
-        
+        <form action="confirmation.html" method="get" id="orderForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+    
+            <!-- Fruit selectors from the previous example -->
+            <label for="fruitSelector1">Select Fruit 1:</label>
+            <select id="fruitSelector1">
+                <!-- Options will be dynamically added here -->
+            </select>
+    
+            <label for="fruitSelector2">Select Fruit 2:</label>
+            <select id="fruitSelector2">
+                <!-- Options will be dynamically added here -->
+            </select>
+    
+            <label for="fruitSelector3">Select Fruit 3:</label>
+            <select id="fruitSelector3">
+                <!-- Options will be dynamically added here -->
+            </select>
+
+            <div>
+                <h3>Selected Fruits:</h3>
+                <ul id="selectedFruitsList"></ul>
+            </div>
+    
+            <label for="specialInstructions">Special Instructions (max 250 characters):</label>
+            <textarea id="specialInstructions" name="specialInstructions" maxlength="250"></textarea>
+    
+            <button type="button" onclick="submitForm()">Order a Drink</button>
+        </form>
+
+    
     </main>
     <footer>     
     </footer>
