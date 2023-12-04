@@ -5,7 +5,7 @@ function submitForm() {
     const phoneNumber = document.getElementById("phoneNumber").value.trim();
     const specialInstructions = document.getElementById("specialInstructions").value.trim();
 
-    const selectedFruitIds = [
+    const selectedFruits = [
         document.getElementById("fruitSelector1").value,
         document.getElementById("fruitSelector2").value,
         document.getElementById("fruitSelector3").value
@@ -13,7 +13,7 @@ function submitForm() {
 
     // Perform additional validation as needed
 
-    if (firstName === "" || email === "" || phoneNumber === "" || specialInstructions.length > 250 || selectedFruitIds.some(id => id === "")) {
+    if (firstName === "" || email === "" || phoneNumber === "" || specialInstructions.length > 250 || selectedFruits.some(id => id === "")) {
         alert("Please fill in all required fields and make sure to select three fruits.");
         return;
     }
@@ -24,9 +24,9 @@ function submitForm() {
     params.append("email", email);
     params.append("phoneNumber", phoneNumber);
     params.append("specialInstructions", specialInstructions);
-
-    selectedFruitIds.forEach((id, index) => {
-        params.append(`fruit${index + 1}`, id);
+    
+    selectedFruits.forEach((fruit, index) => {
+        params.append(`fruit${index + 1}`, fruit);
     });
 
     // Redirect to confirmation.html with query string
