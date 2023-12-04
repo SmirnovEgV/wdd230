@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bountiful Foods | Orders - WDD230</title>
-    <meta name="author" content="Egor Smirnov"/>
-    <meta property="og:title" content="Bountiful Foods Homepage - WDD230"/>
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="-city-9524-166a64199e6.jpg?width=1366&height=768&xhint=1361&yhint=1023&crop=true" />
-    <meta property="og:url" content="https://smirnovegv.github.io/wdd230/bountifulFoods/ordering.html" />
-    <meta property="og:description" content="The smoothie vending website, a part of final assignment for WDD 230 - by Egor Smirnov, a student in BYUI"/>
-    <meta name="description" content="Ordering page for smoothie vending websiet, part of Final project assignment"/>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="normalize.min.css"/>
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
-    
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bountiful Foods | Orders - WDD230</title>
+        <meta name="author" content="Egor Smirnov"/>
+        <meta property="og:title" content="Bountiful Foods Homepage - WDD230"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="-city-9524-166a64199e6.jpg?width=1366&height=768&xhint=1361&yhint=1023&crop=true" />
+        <meta property="og:url" content="https://smirnovegv.github.io/wdd230/bountifulFoods/ordering.html" />
+        <meta property="og:description" content="The smoothie vending website, a part of final assignment for WDD 230 - by Egor Smirnov, a student in BYUI"/>
+        <meta name="description" content="Ordering page for smoothie vending websiet, part of Final project assignment"/>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="normalize.min.css"/>
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <script src="scripts/urlForming.js" defer></script>
+    </head>
 <body>
     <nav>
         <ul id="nav-menu" class="nav-menu">
             <li><a href="aboutus.html">About Us</a></li>
             <li><a id="active" href="#">Home</a></li>
             <li><a href="ordering.html">Ordering</a></li>
-          </ul>
+        </ul>
     </nav>
-    <main>  
+    <main id="mainConfirmation">
         <section>
-            <p>Your name is <span id="yourName"></span>.</p>
-            <p>Your email is <span id="yourEmail"></span>.</p>
-            <p>Your phonenumber is <span id="yourPhone"></span>.</p>
-            <p>Fruits that you selected are<span id="yourFruitSelection"></span>.</p>
-            <p>Addionally you asked for:</p>
+            <p>Your name is: <span id="yourName"></span></p>
+            <p>Your email is: <span id="yourEmail"></span></p>
+            <p>Your phonenumber is:<span id="yourPhone"></span></p>
+            <p>Fruits that you selected are:<span id="yourFruitSelection"></span></p>
+            <p>Additionally you asked for: <span id="special"></span></p>
         </section>
     </main>
     <footer>     
     </footer>
-
-    
 </body>
 </html>

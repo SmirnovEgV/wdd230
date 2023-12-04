@@ -18,6 +18,17 @@ function submitForm() {
         return;
     }
 
-    // Redirect to confirmation.html (you need to create this page)
-    window.location.href = "confirmation.html";
+    // Create URLSearchParams object
+    const params = new URLSearchParams();
+    params.append("firstName", firstName);
+    params.append("email", email);
+    params.append("phoneNumber", phoneNumber);
+    params.append("specialInstructions", specialInstructions);
+
+    selectedFruitIds.forEach((id, index) => {
+        params.append(`fruit${index + 1}`, id);
+    });
+
+    // Redirect to confirmation.html with query string
+    window.location.href = `confirmation.html?${params.toString()}`;
 }
