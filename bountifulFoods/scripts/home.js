@@ -1,4 +1,3 @@
-
 const lat = "33.1216362";
 const lon = "-117.3702035";
 const key = "57feb85cb44071db709bef659cd8691a";
@@ -73,3 +72,9 @@ function displayWeatherForecast(forecastData) {
   }
   
   getWeather();
+// Stuff that responsible for updated DT
+let year = document.querySelector("#year");
+year.innerHTML = "&copy; " + new Date().getFullYear();
+
+let lastModifiedParagraph = document.getElementById("lastModified");
+lastModifiedParagraph.textContent = "Last Modified " + document.lastModified;
