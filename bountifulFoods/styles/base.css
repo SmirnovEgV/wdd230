@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans&display=swap');
 :root{
     --color01: #A7E8BD;
-    --color02: #132A13;
+    --color02: #46351D;
     --color03: #EFA7A7;
     --color04: #FFD972;
+    --colorNav: radial-gradient(var(--color04), var(--color03));
     --colorReserve: #615055;
     --fontAcme: "Acme";
     --fontJosefin: "Josefin Sans";
@@ -47,18 +48,18 @@ nav ul li{
 nav ul li a {
     display: block;
     padding: 10px 0px;
-    border-bottom: #132A13 solid 2px;
-    border-right: #132A13 solid 2px;
+    border-bottom: var(--color02) solid 2px;
+    border-right: var(--color02) solid 2px;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #132A13;
+    background-color: var(--color02);
     color:white;
 }
 #active {
     background-color: white;
-    color:#132A13;
+    color:var(--color02);
 }
 
 /*FOOTER SEGMENT*/

@@ -1,0 +1,36 @@
+@media only screen and (min-width: 768px){
+    :root{
+        --color01: #A7E8BD;
+        --color02: #46351D;
+        --color03: #EFA7A7;
+        --color04: #FFD972;
+    }
+    
+    body{
+        max-width: 1300px;
+        margin: 0 auto;
+        background-image:repeating-linear-gradient(var(--color03),var(--color04));
+        max-height: 1800px;
+    }
+
+    .nav-menu {
+        display: flex;
+        background-color: var(--color04);
+        list-style-type: none;
+        text-align: center;
+        max-height: fit-content;
+    }
+    
+    .hamburger-menu-button{
+        display: none;
+    }
+    nav ul li{
+        width: 100%;
+    }
+    nav ul li a {
+        border: none;
+        display: block;
+        padding: 30px 0px;
+        text-decoration: none;
+    }
+}
