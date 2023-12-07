@@ -1,6 +1,87 @@
-#weather-today{
-    border: 3px solid orange;
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans&display=swap');
+:root{
+    --color01: #A7E8BD;
+    --color02: #132A13;
+    --color03: #EFA7A7;
+    --color04: #FFD972;
+    --colorReserve: #615055;
+    --fontAcme: "Acme";
+    --fontJosefin: "Josefin Sans";
 }
-#weather-forecast{
-    border: 3px solid orange;
+
+body {
+    background-image:repeating-linear-gradient(var(--color03),var(--color04));
+    max-width: 425px;
+    margin: 0;
+}
+header{
+    font-family: var(--fontJosefin);
+}
+.nav-menu {
+    padding-left: 0px;
+    margin-top: -5px;
+    display: block;
+    background-color: var(--color04);
+    text-align: center;
+    list-style-type: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.9s;
+}
+
+.nav-menu.active {
+    max-height: 600px;
+
+}
+.hamburger-menu-button{
+    position: absolute;
+    top: 1%;
+    left: 89%;
+    border-radius: 15px;
+    background-color: #FFD972;
+    border: var(--color02) solid;
+}
+nav ul li{
+    width: 100%;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 0px;
+    border-bottom: #132A13 solid 2px;
+    border-right: #132A13 solid 2px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #132A13;
+    color:white;
+}
+#active {
+    background-color: white;
+    color:#132A13;
+}
+
+/*FOOTER SEGMENT*/
+footer{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontAcme),sans-serif;
+    color: var(--color02);
+    background-image: radial-gradient(var(--color01), var(--color04));
+    padding: 10px;
+    border-top: var(--color02) solid 2px;
+}
+#social-media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    opacity: 100%;
+}
+#contact-information p{
+    font-size: small;
+    margin: 0;
+}
+#copyModifications{
+    text-align: center;
 }
