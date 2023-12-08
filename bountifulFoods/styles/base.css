@@ -2,12 +2,8 @@
 :root{
     --color01: #A7E8BD;
     --color02: #46351D;
-    --color03: #EFA7A7;
-    --color04: #FFD972;
-    --colorNav: radial-gradient(var(--color04), var(--color03));
-    --colorReserve: #615055;
-    --fontAcme: "Acme";
-    --fontJosefin: "Josefin Sans";
+    --color03: #7BDFF2;
+    --color04: #FDCA40;
 }
 
 body {
@@ -15,8 +11,12 @@ body {
     max-width: 425px;
     margin: 0;
 }
+
 header{
     font-family: var(--fontJosefin);
+}
+picture img{
+    max-width: 100%;
 }
 .nav-menu {
     padding-left: 0px;
@@ -61,16 +61,34 @@ nav a:hover {
     background-color: white;
     color:var(--color02);
 }
+/*weather segment*/
+#weather-right{
+    border: var(--color02) solid 1px;
+    background-color: #FDCA40;
+}
+
+#weather-today{
+    border-bottom: var(--color02) solid 1px;
+   text-align: center;
+}
+#weather-forecast{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
 /*FOOTER SEGMENT*/
 footer{
     display: flex;
     flex-direction: column;
     font-family: var(--fontAcme),sans-serif;
-    color: var(--color02);
-    background-image: radial-gradient(var(--color01), var(--color04));
+    color: var(--color04);
+    background-color: var(--color02);
     padding: 10px;
     border-top: var(--color02) solid 2px;
+}
+footer a{
+    color: var(--color04);
 }
 #social-media-links{
     display: flex;

@@ -3,12 +3,18 @@
     :root{
         --color01: #A7E8BD;
         --color02: #46351D;
-        --color03: #EFA7A7;
-        --color04: #FFD972;
+        --color03: #7BDFF2;
+        --color04: #FDCA40;
     }
+
     body{
         max-width: 768px;
         margin: 0;
+    }
+    #home-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .nav-menu {
@@ -30,5 +36,29 @@
         display: block;
         padding: 30px 0px;
         text-decoration: none;
+    }
+
+
+    #weather-right{
+        border: var(--color02) solid 1px;
+        background-color: #FDCA40;
+    }
+    
+    #weather-today{
+        border-bottom: var(--color02) solid 1px;
+       text-align: center;
+    }
+    #weather-forecast{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #social-media-links{
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        font-size: large;
+        opacity: 100%;
     }
 }
