@@ -23,6 +23,17 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
+    #ordering-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #calltoaction{
+        top: 45%;
+        left: calc(50% - 52px);
+        font-size: 2rem;
+    }
+    
     
 
     .nav-menu {

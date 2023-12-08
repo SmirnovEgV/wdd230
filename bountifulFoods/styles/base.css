@@ -15,9 +15,51 @@ body {
 header{
     font-family: var(--fontJosefin);
 }
+#ordering-header h2{
+   color: var(--color02);
+   text-align: center;
+
+}
 picture img{
     max-width: 100%;
 }
+
+#calltoaction{
+    font-size: larger;
+    background-color: var(--color01);
+    border-radius: 20px;
+    color: #46351D;
+    position: absolute;
+    top: 15%;
+    left: calc(50% - 52px);
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+#fruitSelector1, #fruitSelector2, #fruitSelector3{
+    width: 200px;
+}
+#specialInstructions{
+    height: 100px;
+    width: 200px;
+}
+fieldset button{
+    margin-top: 30px;
+    margin-left: auto;
+    width: 80px;
+    background-color: var(--color03);
+    border: #FDCA40 2px solid;
+    border-radius: 15px;
+}
+
 .nav-menu {
     padding-left: 0px;
     margin-top: -5px;

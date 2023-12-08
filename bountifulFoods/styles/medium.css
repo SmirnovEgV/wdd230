@@ -17,6 +17,15 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
 
+    #ordering-main{
+        display: flex;
+        justify-content: center;
+    }
+    #calltoaction{
+        top: 35%;
+        left: calc(50% - 52px);
+    }
+
     .nav-menu {
         display: flex;
         background-color: var(--color04);
