@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 850px){
     :root{
         --color01: #A7E8BD;
         --color02: #46351D;
@@ -15,7 +15,7 @@
         background-image:repeating-linear-gradient(var(--color03),var(--color04));
     }
     main{
-        margin: 25px 0px;
+        margin: 0px;
         background-image:repeating-linear-gradient(var(--color03),var(--color04));
     }
     #home-main{
@@ -23,6 +23,13 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
+    #aboutus-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.6fr 1fr 0.5fr;
+        gap: 20px;
+    }
+
     #ordering-main{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -70,6 +77,9 @@
         text-align: center;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    /*Map*/
+    
     footer{
         display: flex;
         flex-direction: column;

@@ -4,26 +4,42 @@
     --color02: #46351D;
     --color03: #7BDFF2;
     --color04: #FDCA40;
+    --fontJosefin: "Josefin Sans";
+    --fontAcme: "Acme";
 }
 
 body {
-    background-image:repeating-linear-gradient(var(--color03),var(--color04));
-    max-width: 425px;
+    max-width: 500px;
     margin: 0;
+}
+main{
+    background-image:repeating-linear-gradient(var(--color03),var(--color04));
 }
 
 header{
-    font-family: var(--fontJosefin);
+    font-family: var(--fontJosefin), sans-serif;
+}
+header h1{
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--color04);
 }
 #ordering-header h2{
    color: var(--color02);
    text-align: center;
+}
 
+#aboutus-main{
+    font-family: var(--fontAcme), sans-serif;
+    color: #46351D;
+    padding: 10px 10px;
 }
 picture img{
     max-width: 100%;
 }
-
+#picture-hist img{
+    border: #46351D 2px solid;
+}
 #calltoaction{
     font-size: larger;
     background-color: var(--color01);
@@ -103,6 +119,17 @@ nav a:hover {
     background-color: white;
     color:var(--color02);
 }
+/*Map*/
+.mapthing{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+iframe{
+    width: 100%;
+    border: #46351D 5px solid;
+
+}
+
 /*weather segment*/
 #weather-right{
     border: var(--color02) solid 1px;
