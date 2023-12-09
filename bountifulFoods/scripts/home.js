@@ -74,3 +74,7 @@ function displayWeatherForecast(forecastData) {
   getWeather();
 // Stuff that responsible for updated DT
 
+
+// local storage manipulations
+const storedCount = localStorage.getItem('submissionCount') || 0;
+document.getElementById('submissionCount').innerText = storedCount;

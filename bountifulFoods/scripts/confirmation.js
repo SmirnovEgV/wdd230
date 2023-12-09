@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Create a string with total nutritional info
             const totalNutritionString = `Total (Calories: ${totalCalories}, Fat: ${totalFat}, Sugar: ${totalSugar}, Carbohydrates: ${totalCarbohydrates}, Protein: ${totalProtein})`;
-        })
+        
         
 
     // Populate content dynamically
@@ -46,4 +46,5 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("yourPhone").innerHTML = params.get("phoneNumber"); 
             document.getElementById("yourFruitSelection").innerHTML = `${fruitSelectionString},<br> ${totalNutritionString}`;
             document.getElementById("special").innerHTML = params.get("specialInstructions");
+        })
 });

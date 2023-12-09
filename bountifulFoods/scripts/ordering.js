@@ -62,6 +62,10 @@ function submitForm() {
         return;
     }
 
+    let submissionCount = localStorage.getItem('submissionCount') || 0;
+        submissionCount++;
+        localStorage.setItem('submissionCount', submissionCount);
+
     // Create URLSearchParams object
     const params = new URLSearchParams();
     params.append("firstName", firstName);
