@@ -39,7 +39,7 @@
 
 
     #calltoaction{
-        top: 50%;
+        top: 40%;
         left: calc(50% - 120px);
         font-size: 2rem;
     }

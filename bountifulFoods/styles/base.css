@@ -68,13 +68,16 @@ picture img{
     border: #46351D 2px solid;
 }
 #calltoaction{
+    padding: .3rem .3rem;
     font-size: larger;
     background-color: var(--color01);
+    border: #46351D solid 2px;
     border-radius: 20px;
     color: #46351D;
     position: absolute;
     top: 15%;
     left: calc(50% - 52px);
+    text-decoration: none;
 }
 #calltoaction:hover{
     background-color: var(--color02);

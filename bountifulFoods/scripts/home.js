@@ -4,12 +4,9 @@ const key = "57feb85cb44071db709bef659cd8691a";
 
 const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${key}&units=imperial`;
 
-console.log(url);
-
 const One_Day = 24 * 60 * 60 * 1000;
 
 function dsiplayWeather(dataset){
-  console.log(dataset)
   day1 = dataset[0]
   const temp = Math.round(day1.main.temp);
   const icon = `https://openweathermap.org/img/wn/${day1.weather[0].icon}.png`
