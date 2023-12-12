@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Create a string with fruit names and nutritional info
             const fruitSelectionString = selectedFruits.map(fruit => {
-                return `${fruit.name} (Calories: ${fruit.nutritions.calories}, Fat: ${fruit.nutritions.fat}, Sugar: ${fruit.nutritions.sugar}, Carbohydrates: ${fruit.nutritions.carbohydrates}, Protein: ${fruit.nutritions.protein})`;
-            }).join(', ');
+                return `<b>${fruit.name}</b> (Calories: ${fruit.nutritions.calories}, Fat: ${fruit.nutritions.fat}, Sugar: ${fruit.nutritions.sugar}, Carbohydrates: ${fruit.nutritions.carbohydrates}, Protein: ${fruit.nutritions.protein})`;
+            }).join(', <br>');
 
             let totalCalories = 0;
             let totalFat = 0;
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
 
             // Create a string with total nutritional info
-            const totalNutritionString = `Total (Calories: ${totalCalories}, Fat: ${totalFat}, Sugar: ${totalSugar}, Carbohydrates: ${totalCarbohydrates}, Protein: ${totalProtein})`;
+            const totalNutritionString = `<b>Total</b> (Calories: ${totalCalories}, Fat: ${totalFat}, Sugar: ${totalSugar}, Carbohydrates: ${totalCarbohydrates}, Protein: ${totalProtein})`;
         
         
 

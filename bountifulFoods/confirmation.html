@@ -19,7 +19,7 @@
         <script src="scripts/confirmation.js" defer></script>
     </head>
 <body>
-    <header>
+    <header id="header-orders">
     <nav>
         <ul id="nav-menu" class="nav-menu">
             <li><a href="aboutus.html">About Us</a></li>
@@ -27,15 +27,18 @@
             <li><a id="active" href="ordering.html">Ordering</a></li>
         </ul>
         <button class="hamburger-menu-button">☰</button>
+        <h2>Thank you for your order!</h2>
     </nav>
 </header>
-    <main id="mainConfirmation">
-        <section>
-            <p>Your name is: <span id="yourName"></span></p>
-            <p>Your email is: <span id="yourEmail"></span></p>
-            <p>Your phonenumber is:<span id="yourPhone"></span></p>
-            <p>Fruits that you selected are:<span id="yourFruitSelection"></span></p>
-            <p>Additionally you asked for: <span id="special"></span></p>
+    <main id="confirmation-main">
+        <section id="confirmation-section">
+            <p id="message-1">Your order is being processed. In the range of 3 minutes you will recieve a order confirmation SMS</p>
+            <p id="names">Your name is: <span id="yourName"></span></p>
+            <p id="emails">Your email is: <span id="yourEmail"></span></p>
+            <p id="numbers">Your phonenumber is:<span id="yourPhone"></span></p>
+            <p id="selections">Fruits that you selected are:<span id="yourFruitSelection"></span></p>
+            <p id="additionals">Additionally you asked for: <span id="special"></span></p>
+            <p id="message-2">If some of the inputs are incorrect or you did not resieved an SMS message please contact us at +1 999 1111 99 88</p>
         </section>
     </main>
     <footer>
@@ -55,7 +58,7 @@
         </div>
 
         <div id="resource-attribution">
-            <p>Resource that where used to make this site: <a href="https://www.fruityvice.com">www.fruityvice.com</a>, <a href="https://openweathermap.org">openweathermap.org</a>, Inthernet, ChatGPT</p>
+            <p>Resource that where used to make this site: <a href="https://www.fruityvice.com">www.fruityvice.com</a>, <a href="https://openweathermap.org">openweathermap.org</a>, internet, ChatGPT</p>
         </div>
 
         <div id="copyModifications">

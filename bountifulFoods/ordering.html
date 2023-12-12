@@ -31,14 +31,23 @@
     </nav>
     <h2>Make your own smoothie!</h2>
     <picture>
-        <source media="(max-width: 426px)" srcset="images/smoothies426.webp">
-        <source media="(max-width: 768px)" srcset="images/smoothies768.webp">
-        <img src="images/smoothies1300.webp" alt="Yummy looking smoothies">
+        <source media="(max-width: 426px)" srcset="images/Yummy_looking_smoothies_with_fruits426.webp">
+        <source media="(max-width: 768px)" srcset="images/Yummy_looking_smoothies_with_fruits768.webp">
+        <img src="images/Yummy_looking_smoothies_with_fruits1300.webp" alt="Yummy looking smoothies">
     </picture>
     
 </header>
     
-    <main id="ordering-main">  
+    <main id="ordering-main">
+        <section id="ordering-instructions">
+            <h3>Instructions</h3>
+            <p>
+                You pay on item PickUp.
+                Select 3 different fruit for you smoothie. A proper Bountiful Foods™ smoothie requires 3 different ingredients, so please choose three different fruits. 
+                If (for some reasons) you want only one or two fruits just follow the prompts seen of Selected Fruits. If it outputs two then it's two, if one it's one.
+                Special instructions field for thingls like "No sugar" or "More sugar","Room temprature" or "With a lot of ice" etc. 
+            </p>
+        </section>  
         <form action="confirmation.html" method="get" id="orderForm">
             <fieldset>
             <label for="firstName">
@@ -72,8 +81,6 @@
             <label for="specialInstructions">Special Instructions (max 250 characters):</label>
             <textarea id="specialInstructions" name="specialInstructions" maxlength="250"></textarea>
 
-            <h4>Payment is received when the drink is picked up.</h4>
-    
             <button type="button" onclick="submitForm()">Order a Drink</button>
 
         </fieldset>
@@ -98,7 +105,7 @@
         </div>
 
         <div id="resource-attribution">
-            <p>Resource that where used to make this site: <a href="https://www.fruityvice.com">www.fruityvice.com</a>, <a href="https://openweathermap.org">openweathermap.org</a>, Inthernet, ChatGPT</p>
+            <p>Resource that where used to make this site: <a href="https://www.fruityvice.com">www.fruityvice.com</a>, <a href="https://openweathermap.org">openweathermap.org</a>, internet, ChatGPT</p>
         </div>
 
         <div id="copyModifications">

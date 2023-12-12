@@ -12,21 +12,27 @@ body {
     max-width: 500px;
     margin: 0;
 }
+
 main{
     background-image:repeating-linear-gradient(var(--color03),var(--color04));
 }
 
 header{
     font-family: var(--fontJosefin), sans-serif;
+    background-image:repeating-linear-gradient(var(--color03),var(--color04));
+
 }
 header h1{
     font-size: 1.8rem;
     text-align: center;
-    color: var(--color04);
+    color: var(--color02);
 }
 #ordering-header h2{
    color: var(--color02);
    text-align: center;
+}
+#ordering-main h3 {
+    margin-top: 0;
 }
 
 #aboutus-main{
@@ -34,6 +40,26 @@ header h1{
     color: #46351D;
     padding: 10px 10px;
 }
+#confirmation-main{
+    font-family: var(--fontJosefin), sans-serif;
+}
+#confirmation-main p {
+    margin: 0;
+    padding: 10px 2%;
+}
+#selections{
+    display: flex;
+    border: #46351D 2px solid;
+}
+#yourFruitSelection{
+    border: #46351D 2px solid;
+}
+#header-orders h2{
+    margin: 0;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
 picture img{
     max-width: 100%;
 }
@@ -48,6 +74,10 @@ picture img{
     position: absolute;
     top: 15%;
     left: calc(50% - 52px);
+}
+#calltoaction:hover{
+    background-color: var(--color02);
+    color: var(--color01)
 }
 
 fieldset{
@@ -74,6 +104,10 @@ fieldset button{
     background-color: var(--color03);
     border: #FDCA40 2px solid;
     border-radius: 15px;
+}
+fieldset button:hover{
+    background-color: var(--color02);
+    color: var(--color03);
 }
 
 .nav-menu {
